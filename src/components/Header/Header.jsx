@@ -14,11 +14,19 @@ const Header = () => {
           <a href='#' className='nav-link'>
             About Me
           </a>
-          <a href='#' className='nav-link'>
-            Portfolio
+          <a
+            href='https://www.linkedin.com/vibarcar/'
+            target='_blanck'
+            className='nav-link'
+          >
+            Linkedin
           </a>
-          <a href='#' className='nav-link'>
-            Contact
+          <a
+            href='https://twitter.com/VinceTrend'
+            target='_blanck'
+            className='nav-link'
+          >
+            Twitter
           </a>
         </nav>
       </header>

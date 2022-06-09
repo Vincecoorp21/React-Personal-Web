@@ -54,3 +54,47 @@ header nav a:hover {
 header img {
   border-radius: 50%;
 }
+
+/************MEDIA QUERY*******/
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.8em;
+  }
+  #bio {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .table-post {
+    flex-direction: column;
+    text-align: center;
+  }
+  #rates {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .table-bio {
+    flex-direction: column;
+  }
+  .table-bio img {
+    width: 50%;
+  }
+  h2 {
+    margin: 2em;
+    text-align: center;
+  }
+  .grid-3cols {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px;
+    grid-row-gap: 2em;
+  }
+}
