@@ -1,0 +1,53 @@
+/***********SECTION BIO***************/
+/******BIO******************/
+.table-bio {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+}
+.table-bio div {
+  padding: 40px;
+}
+.table-bio img {
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+  box-shadow: 4px 6px 13px 7px #65a47c;
+  transform: rotate(7deg);
+}
+.text {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+/*******HEADER H1 WITH STYLE*********/
+.table-title {
+  font-family: var(--ff-accent);
+  font-size: 2rem;
+  letter-spacing: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.table-title::first-letter {
+  color: var(--clr-primario-vic);
+  font-size: 3.5rem;
+  text-decoration: underline;
+}
+/*******HEADER H1 WITH STYLE*********/
+.button-contact {
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+  background: #099268;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+}
+.button-contact:hover {
+  background-color: #12b886;
+  transition: padding 0.6s ease;
+  padding: 1.4rem;
+}
