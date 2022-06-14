@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/yocomic.png';
 
@@ -11,23 +12,19 @@ const Header = () => {
           <img id='header-img' src={logo} width='60px' />
         </a>
         <nav id='nav-bar'>
-          <a href='#' className='nav-link'>
-            About Me
-          </a>
-          <a
-            href='https://www.linkedin.com/vibarcar/'
-            target='_blanck'
-            className='nav-link'
-          >
-            Linkedin
-          </a>
-          <a
-            href='https://twitter.com/VinceTrend'
+          <Link to='/' className='nav-link'>
+            Home
+          </Link>
+          <Link to='/contact' className='nav-link'>
+            Contact
+          </Link>
+          <Link
+            to='https://twitter.com/VinceTrend'
             target='_blanck'
             className='nav-link'
           >
             Twitter
-          </a>
+          </Link>
         </nav>
       </header>
       {/* <ul>
